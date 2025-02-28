@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
-import LottieAnimation from '@/components/ui/lottie-animation';
+import DynamicLottieAnimation from "@/components/ui/dynamic-lottie";
 
 const navItems = [
     { name: 'Home', href: '/' },
@@ -39,7 +39,7 @@ export default function Header() {
             <div className="container mx-auto px-4 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center">
-                    <LottieAnimation
+                    <DynamicLottieAnimation
                         src="/animations/compawny-header.json"
                         className="h-16 w-auto"
                     />

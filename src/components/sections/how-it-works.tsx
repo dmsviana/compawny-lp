@@ -88,7 +88,7 @@ export default function HowItWorksSection() {
                             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-[40px] blur-xl opacity-20 transform rotate-12"></div>
                             <div className="relative bg-white p-2 rounded-[32px] shadow-xl">
                                 <Image
-                                    src="/images/app-mockup.png"
+                                    src="/file.svg"
                                     alt="App Compawny - Em breve"
                                     width={280}
                                     height={580}

@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
-import LottieAnimation from "@/components/ui/lottie-animation";
+import DynamicLottieAnimation from "@/components/ui/dynamic-lottie";
 
 export default function HeroSection() {
     return (
