@@ -37,7 +37,7 @@ export default function HeroSection() {
                         <Button size="lg">
                             Baixar o Aplicativo
                         </Button>
-                        <Button variant="outline" size="lg">
+                        <Button variant="outline" size="lg" className="text-primary">
                             Saiba Mais
                         </Button>
                     </div>
